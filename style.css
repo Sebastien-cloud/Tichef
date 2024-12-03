@@ -4,16 +4,32 @@
     box-sizing: border-box;
 }
 
+
 .container{
-    max-width: 1000px;
+    max-width: 100%;
     margin: auto;
+    /*background-color: brown;*/
+}
+
+.titreContainer{
+    width: 100%;
 }
 
 .flex{
     display: flex;
-    flex-wrap: wrap;
+   /* flex-wrap: wrap;*/
 }
 
 .spaceBetween{
     justify-content: space-between;
 }
+
+.tailleImg{
+    width: 30%;
+    height: 30%;
+}
+
+.li{
+    width: 50%;
+}
+
